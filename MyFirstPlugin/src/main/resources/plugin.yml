@@ -1,0 +1,6 @@
+name: MyFirstPlugin
+version: '${project.version}'
+main: me.weonest.myfirstplugin.MyFirstPlugin
+api-version: 1.18
+authors: [ weonest ]
+description: My First Plugin ever 
