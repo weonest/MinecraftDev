@@ -1,4 +1,4 @@
-package me.weonest.event;
+package me.weonest.event.events;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -17,7 +17,7 @@ public class JoinLeaveListener implements Listener {
         if (!player.hasPlayedBefore()) {
             event.setJoinMessage(ChatColor.YELLOW + "" + ChatColor.BOLD + player.getDisplayName() + ChatColor.GREEN + " 님이 이세계에 도착했습니다");
         }else {
-            event.setJoinMessage(ChatColor.YELLOW + "" + ChatColor.BOLD + player.getDisplayName() + ChatColor.GREEN + " 새로운 게이가 이세계에 소환됐습니다");
+            event.setJoinMessage(ChatColor.YELLOW + "" + ChatColor.BOLD + player.getDisplayName() + ChatColor.GREEN + " 새로운 용사가 이세계에 소환됐습니다");
         }
     }
 
