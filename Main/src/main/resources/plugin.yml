@@ -1,0 +1,14 @@
+name: Main
+version: '${project.version}'
+main: me.weonest.main.Main
+api-version: 1.18
+authors: [ weonest ]
+commands:
+  fart:
+    description: 방귀 보내기
+  
+  die:
+    description: 다음 생을 노리자
+    
+  feed:
+    description: 배고픔 채우기
