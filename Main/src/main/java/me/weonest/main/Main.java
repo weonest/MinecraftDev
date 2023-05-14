@@ -18,6 +18,7 @@ public final class Main extends JavaPlugin {
         getCommand("feed").setExecutor(new FeedCommand());
         getCommand("setspawn").setExecutor(new SetSpawnCommand(this));
         getCommand("spawn").setExecutor(new SpawnCommand(this));
+        getCommand("basic").setExecutor(new BasicItemCommand());
 
         getServer().getPluginManager().registerEvents(new JoinLeaveEvent(), this);
         getServer().getPluginManager().registerEvents(new SpawnEvent(this), this);
