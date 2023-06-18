@@ -22,6 +22,7 @@ public class SetSpawnCommand implements CommandExecutor {
 
             Location location = p.getLocation();
 
+
             main.getConfig().set("spawn", location);
 
             main.saveConfig();
