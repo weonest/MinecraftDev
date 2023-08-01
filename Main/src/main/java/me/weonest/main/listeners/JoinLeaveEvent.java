@@ -1,4 +1,4 @@
-package me.weonest.main.events;
+package me.weonest.main.listeners;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
